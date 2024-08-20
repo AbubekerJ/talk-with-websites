@@ -3,6 +3,7 @@ import Message from '@/app/components/Message'
 import { MessageSquare } from "lucide-react";
 
 const Messages = ({messages}) => {
+  console.log(messages)
   const noMessages = !messages || messages.length === 0;
 
   return (
